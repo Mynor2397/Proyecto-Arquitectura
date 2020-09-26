@@ -23,10 +23,10 @@ int out = 0;
 
 
 // Set these to run example.
-#define FIREBASE_HOST "ejemploesp8266.firebaseio.com" //host de la base de datos
-#define FIREBASE_AUTH "DxbX7c1xVQGAzYShxyTl8sUJ0W5BNpS8gxqpyvmg" //token de acceso
-#define WIFI_SSID "LG Stylo 5_4858" //nombre de mi red wifi
-#define WIFI_PASSWORD "c0n7r4s3n4" //password de mi red wifi
+#define FIREBASE_HOST "yourproject.firebaseio.com" //host de la base de datos
+#define FIREBASE_AUTH "yourtoken" //token de acceso
+#define WIFI_SSID "----- you ssid wifi" //nombre de mi red wifi
+#define WIFI_PASSWORD "yout password" //password de mi red wifi
 
 // NTP Servers:
 static const char ntpServerName[] = "us.pool.ntp.org"; //servidor para ir a traer la hora
